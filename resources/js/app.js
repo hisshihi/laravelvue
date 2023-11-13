@@ -3,7 +3,8 @@ import './bootstrap';
 import Alpine from 'alpinejs';
 
 import {createApp} from "vue/dist/vue.esm-bundler";
-import HelloVue from './components/ExampleComponent.vue';
+import ExampleComponent from './components/ExampleComponent.vue';
+import PostComponent from "./components/PostComponent.vue";
 
 window.Alpine = Alpine;
 
@@ -12,7 +13,8 @@ Alpine.start();
 
 const app = createApp({
     components: {
-        'example-component': HelloVue,
+        'example-component': ExampleComponent,
+        'post-component': PostComponent,
     }
 })
 
