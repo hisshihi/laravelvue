@@ -22,6 +22,9 @@
                     <div>
                         <example-component></example-component>
                     </div>
+                    <div class="text-center">
+                        <post-component></post-component>
+                    </div>
                 </div>
             </div>
         </div>
